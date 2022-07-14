@@ -1,0 +1,83 @@
+Statically typed language:
+        Statically typed programming languages do type checking(i.e, the process of verifying and enforcing the constraints of types) at compile-time as opposed run-time.
+
+        Examples : Java, C, C++
+
+Dynamically typed language:
+        Dynamically typed programming languages do type checking at run-time as opposed to compile-time.
+
+        Examples : Perl, Ruby, Python, PHP, JavScript
+
+
+Scripted language:
+        Scripted languages are interpreted within another program. JavScript is embedded within a browser and interpreted by that browser.
+
+        Examples : JavScript, Python
+
+Advantages of Scripting language:
+        1.Simple -- Scripting languages are esier to write than a programming language.
+        2.Fewer lines code 
+
+Programming languages:
+        Programming languages are like Java are compiled and not interpreted by another application in the same way.
+
+        Examples: C, C++, Java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTTP1.1 vs HTTP2
+*****************
+
+HTTP 1.1
+********
+1.HTTP 1.1 is less efficient when compared to HTTP2
+2.It is slower than HTTP2 in terms of site loading
+3.It Does not allow PUSH.
+4.HTTP1.1 loads resourse one after other,so if one resourse cant loaded,it blocks all other resourses behind it.
+5.It keeps all requets and response in plain text.
+6.Here server only servee contentwhat client ask for it.
+7.HTTP1.1 maintains less performance boost compared to other.
+8.It Does not use HPACK method.
+9.It uses ordered and blocking method.
+10.In HTTP1.1 devolopers doesn't have any control over prioritization.
+11.It doesn't reduce any additional round-trip times while HTTP2 reduces, meaning websites loading faster with less optimiztion 
+
+
+HTTP 2
+*******
+1.HTTP2 is more efficient
+2.It is faster than HTTP1.1 in terms of site loading
+3.It allows PUSH to response proactively into client cache.
+4.HTTP2 is able to use single TCP connection to send multiple Streams of data at once. so that no resourse blocks any other resourse
+5.It uses binary farming layer to encapsulate all messages in binary format.
+6.By using PUSH,it allows server to serve content before client asks for it. 
+7.It maintains great performance boost.
+8.It uses most advanced compression method HPACK.
+9.HTTP2 is fully muliplexed.
+10.In HTTP2 devolopers have deatailed control over prioritization.
+11.While HTTP2 reduces additional round-trip times, meaning websites loading faster with less optimiztion 
