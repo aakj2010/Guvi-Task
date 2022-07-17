@@ -1,0 +1,23 @@
+body{
+    background-color: #cad2c5;
+  }
+.nav1 {
+  background-color: #2f3d46;
+}
+.main {
+  background-color: #343434;
+}
+.sidebar {
+  height: 450px;
+}
+.main1 {
+  height: 40px;
+}
+.main2 {
+  height: 150px;
+}
+p{
+  color: #a3a3a3; 
+  padding-top: 5px; 
+  padding-left: 15px"
+}
